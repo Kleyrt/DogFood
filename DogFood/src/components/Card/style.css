@@ -1,0 +1,29 @@
+.card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 250px;
+  position: relative;
+  border: 1px solid grey;
+  padding: 5px;
+}
+
+.card__image {
+  height: 250px;
+  width: 200px;
+}
+
+.card__like {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  background-color: black;
+}
+
+.red {
+  background-color: red;
+}
